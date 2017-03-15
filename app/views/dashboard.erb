@@ -1,0 +1,6 @@
+<h1>Welcome to Robot World!</h1>
+  <h2>There are currently <%= Robot.all.count %> robots online.</h2>
+  <%= Robot.find_all_by_city %>
+
+  <h3><a href="/robots">See all active robots</a></h3>
+  <h3><a href="/robots/new">Build a new robot</a></h3>
